@@ -70,7 +70,6 @@ header > div {
   font-size: 18px;
   line-height: 26px;
 }
-
 .main-content {
   width: 100%;
   display: flex;
@@ -107,7 +106,6 @@ header > div {
 .slightly_lower {
   margin-top: 48px;
 }
-
 .plans-scene {
   display: flex;
   flex-direction: column;
@@ -179,7 +177,6 @@ li * {
   margin: 12px;
   color: white;
 }
-
 .billing_plan {
   width: 445px;
   height: 450px;
@@ -242,14 +239,12 @@ input:nth-child(2) {
   color: #093f68;
   border: 2px solid #3ee9e5;
 }
-
 input:nth-child(2):hover {
   cursor: pointer;
   background: #080c20;
   border: 2px solid #3ee9e5;
   color: white;
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .central {
     margin: 30px;
@@ -261,7 +256,6 @@ input:nth-child(2):hover {
   .header_topic {
     font-size: 36px;
   }
-
   .central p {
     font-size: 14px;
   }
@@ -297,7 +291,7 @@ input:nth-child(2):hover {
     margin: 0;
     width: 100%;
   }
-  header > div{
+  header > div {
     display: grid;
     grid-template-columns: repeat(2 1fr);
     grid-template-rows: repeat(2 1fr);
@@ -310,7 +304,6 @@ input:nth-child(2):hover {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
-
   .central {
     margin: 0;
     background-image: none;
