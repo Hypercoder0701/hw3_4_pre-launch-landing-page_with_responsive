@@ -9,6 +9,8 @@ body {
 }
 body {
   width: 100%;
+  display: flex;
+  justify-content: center;
   background: #080c20;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
@@ -283,6 +285,10 @@ input:nth-child(2):hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .main-container{
+    display: flex;
+    align-items: center;
+  }
   header > a {
     margin: 48px 0px 0px 0px;
     text-align: center;
